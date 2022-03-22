@@ -24,3 +24,10 @@ Observaciones:
 - El mail no puede ser registrado 2 veces.
 - Se puede registrar el usuario con una lista de telefonos en caso de contener mas de uno.
 - La contraseña se almacenara en la BD encriptada mediante UUII.
+
+
+Conexion con la Base de Datos.
+
+Para configurar la conexion con la base de datos se debe configurar el archivo "application.properties" especificando el datasource.
+En este caso con la BD levantada localmente en la direccion localhost:3306 mediante MySQL:
+"spring.datasource.url=jdbc:mysql://localhost:3306/db_aleksei_prueba?useSSL=false&serverTimezone=UTC"
